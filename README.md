@@ -23,6 +23,9 @@ A fast, simple to use, all in one networking system for c# (And Unity)
   
 - Auto Port Forwarding Support
   - Using Open.Nat, Allows for *Most* Modern Routers to port-forward for you when creating servers
+  
+- Full network stats
+  - Can track Packets Per Second, Data Per Second, Both sent and recv. 
 
 ## Coming Next - V0.3
 - Finish off / Cleanup High Level Wrapper
