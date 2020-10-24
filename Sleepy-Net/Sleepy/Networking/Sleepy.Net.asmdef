@@ -1,0 +1,20 @@
+{
+    "name": "Sleepy.Net",
+    "references": [
+        "GUID:eb9b6e46bee59a94bb5b27ac5178d930",
+        "GUID:11f46340112a3744d87d5ab2285fe4c5",
+        "GUID:ee94bea1cc578234cb94354cc9b62018",
+        "GUID:d2a683d71e0b2034eb8e291a3f9350d0",
+        "GUID:ddf10835f2fdd4b4fba204a17a9f1731",
+        "GUID:f07cc804cb81d38419ddf0fd0938112c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
