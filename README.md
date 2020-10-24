@@ -46,6 +46,8 @@ A fast, simple to use, all in one networking system for c# (And Unity)
     - This is not using the OS async callbacks (OS calls are slow), I use my own thread pool management
   - Pooled memory allocation - No GC Allocation when messages are sent/recieved past the first.
   - No Reflection/Attributes for message conversion or send/recv 
+  - Custom Serialisation - Uses a Reusable Stream type to reduce/negate all GC calls when serialising data. 
+    - If not using the ISerializable Interface, Will default serialise for you but is much less efficient (uses Json style encoding) 
   - Very little overhead
   - Packet Spam/Large Packet TCP Protection
 - Auto Port Forwarding - Using Open.Nat, Allows for *Most* Modern Routers to portforward for you when creating servers
